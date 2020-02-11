@@ -1,0 +1,145 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Wedding Page">
+        <meta name="author" content="Jingyi and Mingxuan">
+        <title>Wedding Page | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="stylesheet" href="./css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="css/timeline.css">
+    </head>
+    <body>
+
+        <header class="w3-display-container w3-wide bgimg2 w3-opacity-min w3-hover-opacity-off">
+            <!-- < img class="w3-image" src="img/Profile_JJMX.jpg" alt="Me" width="1500" height="600"> -->
+            <div class="w3-display-middle w3-center">
+                <h1 class="w3-jumbo specialfont hometitle">Mingxuan & Jingyi</h1>
+                <!-- <h5 class="w3-hide-large" style="white-space:nowrap">Mingxuan & Jingyi</h5> -->
+                <!-- <h2 class="w3-hide-medium w3-hide-small">We are getting married!</h3> -->
+                <!-- <h2>Are getting married!</h2> -->
+                <h2 class="specialfont"><b>Jan 2nd, 2020</b></h2>
+            </div>
+        </header>
+
+        <section id="navbar" class=" w3-hide-small">
+            <nav class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+                <a href="index.html" style="width:20%" class="w3-bar-item w3-button">Home</a>
+                <a href="schedule.html" style="width:20%" class="w3-bar-item w3-button"><strong><i>Schedule</i></strong></a>
+                <a href="story.html" style="width:20%" class="w3-bar-item w3-button">Story</a>
+                <a href="moment.html" style="width:20%" class="w3-bar-item w3-button">Moment</a>
+                <a href="faq.html" style="width:20%" class="w3-bar-item w3-button">FAQ & RSVP</a>
+            </nav>
+        </section>
+
+        <section class="timeline sticky-content " style="background-image: url('img/floralcopy.png'); background-position: center;
+        background-size: cover;">
+            <div class="container schedule-sec">
+                <div class="timeline-item">
+                    <div class="timeline-img"></div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="date">January 8th, 2021</div>
+                        <h2>Lanzhou, China</h2>
+                        <p>Ceremony with Bridegroom’s Family </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content js--fadeInRight">
+                        <h2>Tianjin, China</h2>
+                        <div class="date">January 2nd, 2021</div>
+                        <p>Ceremony with Bride’s Family  </p>
+                        <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content timeline-card js--fadeInLeft">
+                        <div class="timeline-img-header">
+                            <h2>Honeymoon</h2>
+                        </div>
+                        <div class="date">2020 To be decided.</div>
+                        <p>To be decided.</p>
+                        <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header2">
+                            <h2>Winter Study</h2>
+                        </div>
+                        <div class="date">2020 Winter</div>
+                        <p>Happily study Linear Algebra, Probability, UCB CS61b and GRE Verbal to get prepared for transfer.</p>
+                        <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content js--fadeInLeft">
+                        <div class="date">January 2nd, 2020 10:00am </div>
+                        <h2>Wedding Ceremony</h2>
+                        <blockquote>New York City Marriage Bureau 141 Worth St, New York, NY 10007</blockquote>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+
+                    <div class="timeline-img"></div>
+
+                    <div class="timeline-content timeline-card js--fadeInRight">
+                        <div class="timeline-img-header3">
+                            <h2>License</h2>
+                        </div>
+                        <div class="date"> December 2nd, 2019 4:00pm</div>
+                        <p>New York City Marriage Bureau 141 Worth St, New York, NY 10007 image</p>
+                        <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <script>
+            window.onscroll = function () { myFunction() };
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+
+
+        </script>
+
+        <footer>
+            <p>Welcome to our wedding page! By Mingxuan & Jingyi </p>
+        </footer>
+    </body>
+</html>
+

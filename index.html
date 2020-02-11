@@ -1,0 +1,75 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Wedding Page">
+        <meta name="author" content="Jingyi and Mingxuan">
+        <title>Wedding Page | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </head>
+    <body>
+        <header class="w3-display-container w3-wide bgimg w3-grayscale-min">
+            <!-- < img class="w3-image" src="img/Profile_JJMX.jpg" alt="Me" width="1500" height="600"> -->
+            <div class="w3-display-middle w3-text-white w3-center">
+                <h1 class="w3-jumbo specialfont hometitle">Mingxuan & Jingyi</h1>
+                <!-- <h5 class="w3-hide-large" style="white-space:nowrap">Mingxuan & Jingyi</h5> -->
+                <!-- <h2 class="w3-hide-medium w3-hide-small">We are getting married!</h3> -->
+                <h2>Are getting married!</h2>
+                <h2 class="specialfont"><b>Jan 2nd, 2020</b></h2>
+            </div>
+        </header>
+
+        <section id="navbar" class=" w3-hide-small">
+            <nav class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+                <a href="index.html" style="width:20%" class="w3-bar-item w3-button"><strong><i>Home</i></strong></a>
+                <a href="schedule.html" style="width:20%" class="w3-bar-item w3-button">Schedule</a>
+                <a href="story.html" style="width:20%" class="w3-bar-item w3-button">Story</a>
+                <a href="moment.html" style="width:20%" class="w3-bar-item w3-button">Moment</a>
+                <a href="faq.html" style="width:20%" class="w3-bar-item w3-button">FAQ & RSVP</a>
+            </nav>
+        </section>
+
+        <section id="home" class="sticky-content">
+            <article>
+                <h2>How we met?</h2>
+                “We met in college a few days after commencement. I truly did not expect it. I had been late for a movie, thus made it up by helping a roommate moving out of dorm. She just caught my eye in business professional attire. Then I decided to give it a try.”
+            </article>
+
+            <img id="stroy-img1" src="img/commence.jpg" alt="We">
+        </section>
+
+        <section id="home2">
+            <img id="stroy-img2" src="img/License.jpg" alt="We">
+            <article>
+                <h2>How we decided to get married?</h2>
+                “I can give many rationales of how we decided to get married. We get more motivated to make changes for a better life. We can support each other and adjust our path for a bright future of the family. We feel more secure and comfortable…
+                While the fact is, we just feel we met the right person. That’s enough.”
+            </article>
+    
+        </section>
+            
+        
+        
+        <footer>
+            <p>Welcome to our wedding page! By Mingxuan & Jingyi </p>
+        </footer>
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</html>

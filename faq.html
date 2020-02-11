@@ -1,0 +1,114 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Wedding Page">
+        <meta name="author" content="Jingyi and Mingxuan">
+        <title>Wedding Page | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="stylesheet" href="./css/fontawesome.min.css"> -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </head>
+    <body>
+        <header class="w3-display-container w3-wide bgimg5 w3-opacity-min w3-hover-opacity-off">
+            <!-- < img class="w3-image" src="img/Profile_JJMX.jpg" alt="Me" width="1500" height="600"> -->
+            <div class="w3-display-middle w3-center">
+                <h1 class="w3-jumbo specialfont hometitle">Mingxuan & Jingyi</h1>
+                <!-- <h5 class="w3-hide-large" style="white-space:nowrap">Mingxuan & Jingyi</h5> -->
+                <!-- <h2 class="w3-hide-medium w3-hide-small">We are getting married!</h3> -->
+                <!-- <h2>Are getting married!</h2> -->
+                <h2 class="specialfont"><b>Jan 2nd, 2020</b></h2>
+            </div>
+        </header>
+
+        <section id="navbar" class=" w3-hide-small">
+            <nav class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+                <a  href="index.html"  style="width:20%" class="w3-bar-item w3-button">Home</a>
+                <a href="schedule.html" style="width:20%" class="w3-bar-item w3-button">Schedule</a>
+                <a href="story.html" style="width:20%" class="w3-bar-item w3-button" >Story</a>
+                <a href="moment.html" style="width:20%" class="w3-bar-item w3-button">Moment</a>
+                <a href="faq.html" style="width:20%" class="w3-bar-item w3-button"><strong><i>FAQ & RSVP</i></strong></a>
+            </nav>
+        </section>
+
+        <section class="w3-container sticky-content w3-grayscale-min w3-padding-64">
+            <section class="w3-row">
+                <section class="question">
+                    <!-- <div class="w3-display-middle"> -->
+                    <h2>WHAT’S THE DRESS CODE?</h2>
+                    <h5>
+                        Casual would be fine. Many friends of bridegroom major in Computer Science, and a few friends are travelling a long distance to meet us. Also concerning the winter weather in New York City and Providence, we feel casual dressing would make you feel comfortable and warm!
+                    </h5>
+                    <!-- </div> -->
+                </section>
+
+                <section class="answer">
+                    <h2>CAN I BRING A FAMILY OR DATE?</h2>
+                    <h5>
+                        Of course. We are really happy to share this moment with you and your important ones. Please remember to indict the number of guests in the RSVP section.
+                    </h5>
+                </section>
+            </section>
+
+            <section class="w3-row">
+                <section class="question">
+                    <h2>ARE KIDS INVITED?</h2>
+                    <h5>
+                        We do think any of you have kids. But if you do, it is more than welcome to bring them.
+                    </h5>
+                </section>
+
+                <section class="answer">
+                    <h2>DO I HAVE TO UNDERSTAND MANDARIN?</h2>
+                    <h5>
+                        No. Although we believe native language of most guests would be Mandarin, it is not necessary to understand Mandarin.
+                    </h5>
+                </section>
+            </section>
+        </section>
+
+        <section class="w3-display-container rsvpimg">
+            <section class="w3-container w3-padding-64 w3-center w3-wide w3-text-white" id="sec-rsvp">
+                <h1>HOPE YOU CAN MAKE IT!</h1>
+                <p class="w3-large">Kindly Respond By January, 2020</p>
+                <form>
+                    <section style="position:center;  left: 100%;">
+                        <input class="rsvp-input w3-border" type="text" placeholder="Name(s)" name="name">
+                        <input class="rsvp-input w3-border" type="text" placeholder="Email" name="mail">
+                        <input class="rsvp-input w3-border" type="text" placeholder="Number of Guests" name="guests">
+                        <input class="rsvp-input w3-border" type="text" placeholder="Dietary Restrictions" name="dietary">
+                    </section>
+                </form>
+                <p class="w3-xlarge">
+                    <button class="w3-button w3-round w3-red  w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+                </p>
+                <!-- <p class="w3-xlarge">
+              <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+            </p> -->
+            </section>
+        </section>
+
+
+
+        <footer>
+                <p>Welcome to our wedding page! By Mingxuan & Jingyi </p>
+        </footer>
+
+        <script>
+            window.onscroll = function () { myFunction() };
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+
+</html>
