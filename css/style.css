@@ -1,0 +1,222 @@
+
+body{
+    /* font: 15px/1.5 "Raleway", sans-serif; */
+    /* font-family: ; */
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+body, h1, h2, h5, a, p, article{font-family: 'Raleway'!important}
+body, html {height: 100%}
+
+@font-face {
+    font-family: headerfont;
+    src: url(../fonts/adorabouton.ttf);
+}
+
+.specialfont {
+    font-family: headerfont !important;
+}
+
+.hometitle {
+    font-size: larger;
+}
+
+.bgimg{
+    min-height: 100%; 
+    background-position: center;
+    background-size: cover;
+}
+.bgimg2,.bgimg3,.bgimg4,.bgimg5{
+    min-height: 40%;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+
+.bgimg {background-image: url("../img/Profile_JJMX.jpg")}
+.bgimg2 {background-image: url("../img/floral.png")}
+.bgimg3 {background-image: url("../img/peach3.jpg")}
+.bgimg4 {background-image: url("../img/brick.png")}
+.bgimg5 {background-image: url("../img/leaf.jpg")}
+
+.rsvpimg {
+    background-image: url("../img/flowers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Home */
+#home article {
+    float: left;
+    padding: 40px;
+    width: 50%;
+    font-size :16px;
+}
+
+#home img{
+    float:left;
+    padding: 20px;
+    width:50%;
+}
+#home2 article {
+    float: right;
+    padding: 40px;
+    width: 50%;
+    font-size: 16px;
+}
+
+#home2 img {
+    float: left;
+    padding: 20px;
+    width: 50%;
+}
+
+
+
+#home {
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: #99636b;
+    display :flex;
+    align-items: center;
+}
+
+#home h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 20px;
+}
+
+#home2 {
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: #99636b;
+    display :flex;
+    align-items: center;
+  }
+  
+#home2 h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+
+#home2 p {
+    font-size: 20px;
+}
+
+  /* #home2 {
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: #99636b;
+  }
+  
+  #home2 h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+
+  p {
+     font-size: 20px;
+  } */
+
+
+/* Schedule */
+#schedule-sec{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color:#ffe9e9!important;
+    /* padding-bottom: 100px;
+    padding-top: 100px; */
+}
+
+/* Moment */
+.gallery-img{
+    padding: 8px;
+}
+
+.w3-container .question{
+    float:left;
+    padding: 20px;
+    width:50%;
+    position: center;
+    border-right: 1px solid #99636b;
+}
+
+.w3-container .answer{
+    float:left;
+    padding: 20px;
+    width:50%;
+    /*border-left: 1px solid #99636b;*/
+}
+
+.w3-container h5, h2 {
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+/* .w3-container .padding{
+    width:100%;
+    background-color: #f4f4f4;
+} */
+
+.pale-red{
+    color:#000!important;
+    background-color:#ffe9e9!important
+}
+
+/* .rsvp-input{
+
+} */
+
+/* General */
+footer{
+    padding: 5px;
+    margin-top: 5px;
+    color:#000!important;
+    background-color:#ffe9e9!important;
+    text-align: center;
+    bottom: 0;
+}
+
+#navbar{
+    /* background-color: #99636b; */
+    z-index: 1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .sticky-content {
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
